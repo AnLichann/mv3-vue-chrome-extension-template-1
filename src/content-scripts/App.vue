@@ -1,6 +1,6 @@
 <template>
   <div class="contentsview">
-    <p>Firebase Login Sample</p>
+    <p>testview333</p>
     <div v-if="isAuthenticated" 
       class="contentsview__user"
     >
@@ -45,7 +45,7 @@ onMounted(() => { authStore.login({ interactive: false })});
   width: 200px;
   padding: 5px;
   border-radius: 10px;
-  background-color: white;
+  background-color: rgb(235, 222, 222);
   font-size: 12px;
   z-index: 100;
   color: black;
